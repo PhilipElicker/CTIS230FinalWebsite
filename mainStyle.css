@@ -7,6 +7,7 @@ body {
 	font-family: sans-serif;
 	color: black;
 	font-size: 18px;
+	background-image: url('Photos/TestImage2.png');
 }
 
 h1 {
@@ -32,9 +33,13 @@ h2.LinkHeading {
 
 a {
 	color: #141414;
-	font-size: 20px;
 	display: block;
 	text-align: center;
+}
+
+a.TopLink {
+	display: inline;
+	font-size: 22px;
 }
 
 a:link {
@@ -42,11 +47,11 @@ a:link {
 }
 
 a:visited {
-	color: rgb(35, 130, 253);
+	color: rgb(1, 23, 53);
 }
 
 a:hover {
-	color: rgb(141, 206, 255);
+	color: rgb(0, 99, 175);
 }
 
 a:active {
@@ -58,7 +63,7 @@ a.GalleryLink {
 	margin-bottom: 10px;
 }
 
-img#imgLogo {
+img.imgLogo {
 	width: 10%;
 }
 
