@@ -22,6 +22,8 @@ h2.TextHeading {
 	color: #141414;
 	font-size: 20px;
 	text-align: center;
+	text-decoration: underline;
+	/* border-bottom: 2px solid #141414; */
 }
 
 h2.LinkHeading {
@@ -63,8 +65,13 @@ a.GalleryLink {
 	margin-bottom: 10px;
 }
 
+/* img {
+	border-style: solid;
+	border-width: 1px;
+} */
+
 img.imgLogo {
-	width: 10%;
+	width: 80px;
 }
 
 img#img1 {
