@@ -42,11 +42,11 @@ a.TopLink {
 }
 
 a:link {
-	color: #00111d;
+	color: rgb(0, 68, 162);
 }
 
 a:visited {
-	color: rgb(0, 68, 162);
+	color: #003154;
 }
 
 a:hover {
